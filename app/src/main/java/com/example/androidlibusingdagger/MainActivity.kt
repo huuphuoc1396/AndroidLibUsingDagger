@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var viewDataBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        viewDataBinding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        viewDataBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewDataBinding.root)
 
         viewDataBinding.btnStartLibActivity.setOnClickListener {
