@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidLibUsingDagger</string>
+    <string name="btn_start_lib_activity">Start Lib Activity</string>
 </resources>
