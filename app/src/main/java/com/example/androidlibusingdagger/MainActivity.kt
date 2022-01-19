@@ -1,8 +1,7 @@
 package com.example.androidlibusingdagger
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.ViewDataBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.androidlibusingdagger.databinding.ActivityMainBinding
 import com.example.lib.LibActivity
 
