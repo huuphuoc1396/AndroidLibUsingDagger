@@ -1,12 +1,7 @@
 package com.example.lib
 
-import dagger.Binds
-import dagger.Module
-import dagger.Provides
+import org.koin.dsl.module
 
-@Module
-interface LibModule {
-
-    @Binds
-    fun provideLibRepository(repository: LibRepositoryImpl) : LibRepository
+val libModule = module {
+    factory<LibRepository> { LibRepositoryImpl() }
 }

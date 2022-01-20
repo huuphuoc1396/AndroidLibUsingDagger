@@ -3,7 +3,7 @@ package com.example.androidlibusingdagger
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androidlibusingdagger.databinding.ActivityMainBinding
-import com.example.lib.LibActivity
+import com.example.lib.LibClient
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(viewDataBinding.root)
 
         viewDataBinding.btnStartLibActivity.setOnClickListener {
-            LibActivity.start(this)
+            LibClient.start(this)
         }
     }
 }
