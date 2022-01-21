@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidLibUsingDagger"
 include ':app'
 include ':lib'
+include ':lib-demo'
